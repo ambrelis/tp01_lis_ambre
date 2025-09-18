@@ -2,12 +2,41 @@
 <html lang="en" data-beasties-container>
 <head>
   <meta charset="utf-8">
-  <title>Front</title>
-  <base href="/">
+  <title>tp01_lis_ambre</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+<link rel="stylesheet" href="style.css"></head>
 <body>
-  <app-root></app-root>
-<script src="main-LMPZ5CLS.js" type="module"></script></body>
+  <form action="#" method="post">
+    <h2>Formulaire d'inscription</h2>
+    <label for="login">Login :</label>
+    <input type="text" id="login" name="login" required>
+
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="confirmPassword">Confirmer le mot de passe :</label>
+    <input type="password" type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmer le mot de passe" required>
+
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="surname">Prénom :</label>
+    <input type="text" id="surname" name="surname" required>
+
+    <label for="address">Adresse :</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Numéro de téléphone :</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="birthdate">Date de naissance :</label>
+    <input type="date" id="birthdate" name="birthdate" required>
+
+    <button type="submit">S'inscrire</button>
+
+  </form>
+<script src="script.js" type="module"></script></body>
 </html>
